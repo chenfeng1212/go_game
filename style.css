@@ -200,3 +200,9 @@ div.liaison ul {
 p {
     padding: 0.5rem 0rem;
 }
+
+@media screen and (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
